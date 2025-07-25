@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# 🚀 Resume Builder with OTP Login
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the **React Resume Builder** — a modern, elegant web application that allows users to securely log in using an **email OTP**, fill in their resume details using a beautiful form, and download a professionally formatted PDF resume.
 
-## Available Scripts
+![Banner](https://user-images.githubusercontent.com/your-image-path/banner.png) <!-- Optional banner -->
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🌟 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🔐 **Email-based OTP Login** (no password required)
+- 🎨 **Beautiful UI** with TailwindCSS
+- 📝 **Interactive form** to collect resume details (education, projects, skills, etc.)
+- 📄 **Generate & Download** resume in PDF format (Template 1, Template 2)
+- 🧠 Built with **React** and hooks for state management
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🖥️ Live Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+👉 **[Live Project URL](https://your-deployed-link.netlify.app/)**  
+👉 **[GitHub Repository](https://github.com/your-username/resume-builder)**
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧰 Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Frontend:** React, Tailwind CSS, JSX
+- **Routing:** React Router
+- **PDF Export:** html2canvas + jsPDF
+- **OTP Logic:** Client-side simulated OTP generation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📸 Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> _Include screenshots or gifs of login screen, resume form, and generated PDF_
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Login with OTP | Resume Form | PDF Output |
+|----------------|-------------|------------|
+| ![Login](https://your-image-path/login.png) | ![Form](https://your-image-path/form.png) | ![PDF](https://your-image-path/pdf.png) |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## ⚙️ Installation Steps
 
-## Learn More
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/resume-builder.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# 2. Navigate into the project directory
+cd resume-builder
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 3. Install dependencies
+npm install
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 4. Start the development server
+npm start
